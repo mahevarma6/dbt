@@ -2,7 +2,7 @@ WITH src_listings AS (
  SELECT
  *
  FROM
- {{ ref('src_listings') }}
+ {{ ref('src_listing') }}
 )
 SELECT
  listing_id,
